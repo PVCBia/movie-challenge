@@ -1,12 +1,53 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Movie Challenge</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root"></div>
+    <header class="cabecalho">
+      <h1 class="cabecalho__titulo">Pipocando na Tela</h1>
+
+      <div class="cabecalho__pesquisa">
+        <input type="text" class="cabecalho__pesquisa-input" placeholder="Buscar..."/>
+        <span class="cabecalho__pesquisa-lupa">
+        <img src="assets/search-sort-svgrepo-com.svg" id="btnBusca" alt="Buscar"/>
+        </span>
+      </div>     
+
+      <!-- <label class="cabecalho__checkbox">
+      <input type="checkbox" id="cabecalho__checkbox"/>
+        Mostrar apenas meus favoritos
+      </label> -->
+      <nav>
+        <ul>
+          <li><a href="/#drama">drama</a></li>
+          <li><a href="/#comédia">comédia</a></li>
+          <li><a href="/#ação">ação</a></li>
+          <li><a href="/#sifi">si-fi</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main id="recebe">
+    
+  
+      <h2 class="cabecalho__titulo">Novidades</h2>
+    
+      <section id="filmes"></section>
+    
+      <section id="root">os cards vão aqui</section>
+      <!-- duplicado -->
+
+      <p>conteúdo do corpo</p>
+
+
+    </main>
+
+    <footer>rodapé</footer>
     <script src="main.js" type="module"></script>
+    <script src="home.js" type="module"></script>
+    <!-- <script src="components/App.js" type="module"></script> -->
   </body>
 </html>
