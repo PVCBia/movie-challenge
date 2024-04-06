@@ -2,24 +2,19 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Movie Challenge</title>
+    <link rel="icon" href="assets/favicon-32x32.png" />
+    <title>Pipocando na Tela - Movie Challenge</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <header class="cabecalho">
-      <h1 class="cabecalho__titulo">Pipocando na Tela</h1>
+    <header class="cabecalho"
+            style="background-image: url('https://media4.giphy.com/media/vGHQ4NQKeLtIg4cBrX/giphy.webp?cid=790b7611d4ln5inapmuaexuuraaujmbfc81k1u2yv7wcifdb&ep=v1_gifs_search&rid=giphy.webp&ct=g');
+            background-size: cover; background-position: center;">
+     <h1>Pipocando na Tela</h1>
+    </header> 
 
-      <div class="cabecalho__pesquisa">
-        <input type="text" class="cabecalho__pesquisa-input" placeholder="Buscar..."/>
-        <span class="cabecalho__pesquisa-lupa">
-        <img src="assets/search-sort-svgrepo-com.svg" id="btnBusca" alt="Buscar"/>
-        </span>
-      </div>     
-
-      <!-- <label class="cabecalho__checkbox">
-      <input type="checkbox" id="cabecalho__checkbox"/>
-        Mostrar apenas meus favoritos
-      </label> -->
+      <!-- implementação futura - selecionar filme por categoria
       <nav>
         <ul>
           <li><a href="/#drama">drama</a></li>
@@ -27,27 +22,20 @@
           <li><a href="/#ação">ação</a></li>
           <li><a href="/#sifi">si-fi</a></li>
         </ul>
-      </nav>
-    </header>
-    
-    <main id="recebe">
-    
-  
-      <h2 class="cabecalho__titulo">Novidades</h2>
-    
-      <section id="filmes"></section>
-    
-      <section id="root">os cards vão aqui</section>
-      <!-- duplicado -->
+      </nav>-->
 
-      <p>conteúdo do corpo</p>
-
+    <main id="recebeCards">
+      <!-- remover esse h2??? -->
+      <h2 class="cabecalho__titulo">Acompanhe aqui as novidades:</h2>
+    
+      <center><section id="filmes"></section></center>
 
     </main>
 
     <footer>rodapé</footer>
+
     <script src="main.js" type="module"></script>
     <script src="home.js" type="module"></script>
-    <!-- <script src="components/App.js" type="module"></script> -->
+
   </body>
 </html>
