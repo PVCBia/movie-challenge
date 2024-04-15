@@ -1,4 +1,4 @@
-<img src="assets/capaPipocando.jpg" alt="A capa do site é uma animação multicolorida com pipocas estrourando">
+[<img src="assets/capaPipocando.jpg" alt="A capa do site é uma animação multicolorida com pipocas estrourando">]()
 
 # Pipocando na Tela - Movie Challenge
 
