@@ -2,7 +2,7 @@
 
 # Pipocando na Tela - Movie Challenge
 
-![GitHub](https://img.shields.io/github/license/username/repository) ![GitHub repo size](https://img.shields.io/github/repo-size/username/repository) ![GitHub last commit](https://img.shields.io/github/last-commit/username/repository)
+![GitHub](https://img.shields.io/github/license/PVCBia/movie-challenge) ![GitHub repo size](https://img.shields.io/github/repo-size/uPVCBia/movie-challenge) ![GitHub last commit](https://img.shields.io/github/last-commit/PVCBia/movie-challenge)
 
 ## Descrição do Projeto
 
