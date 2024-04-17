@@ -1,46 +1,33 @@
 // é possivel inserir a autorização e criar a div no mesmo arquivo?
-//    separado - melhor para os testes unitários
+//  R:  separado - melhor para os testes unitários
 
 
 import { farejaDetalhesCard } from '../API.js';
-const Resumo = (movieId) => {
+
+const Resumo = (movie_id) => {
   const mostraResumo = document.createElement('section');
   mostraResumo.className = 'resumoNaTela';
 
-  farejaDetalhesCard(movieId).then(resumo => {
-    resumo.innerHTML =
+  farejaDetalhesCard(movie_id).then(resumo => {
+    //falta:gêneros, média de votação e total de votos.
+
+    mostraResumo.innerHTML =
       `
-    <div>
-    <a href='/'><button>&#x1F814  Voltar</button></a>
-    </div>
-    <div>
-    <a href="#${movieId}">
-    <img src="${posterPath}" alt="Capa">
+    <div id="div1">
+    <a href='/'><button id="btn-voltar">&#x1F814  Voltar</button></a>
+    <a href="#${movie_id}">
+    <img class='capaResumo' src="https://image.tmdb.org/t/p/w300${resumo.poster_path}" alt="Capa do filme '${resumo.title}'"></img>
     </a>
-    <h3>${title} | (${releaseYear})</h3>
-    <p>${overview}</p> 
+    </div>
+    <div id="div2">
+    <h3>${resumo.title}</h3>
+    <p><strong>(${resumo.release_date.split('-')[0]})</strong></p><br>
+    <p>${resumo.overview}</p> 
     </div>
     `;
-    return resumo
+   
   });
-  
-  mostraResumo.appendChild(section)
-  
 
+  return mostraResumo
 };
 export default Resumo;
-
-      
-
-
-//const overview = movie.overview;  //overview vai para os cards unitários
-// // Cria a parte visual do cartão de filme (resumo)
-//     // const parte3 = document.createElement('div');
-//     // parte3.className = 'cards__parte3';
-//     // const texto = document.createElement('p');
-//     // texto.className = 'cards__parte3-texto';
-//     // texto.textContent = overview;
-
-//     // // Adiciona o resumo ao cartão de filme
-//     // parte3.appendChild(texto);
-//     // section.appendChild(parte3);

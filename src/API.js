@@ -14,13 +14,13 @@ export const farejaLista = () => {
     const todosOsFilmes =
         fetch(url, options)
         .then(res => res.json())
-        .then(json => json.results.slice(0, 12)) // ainda preciso puxar o App aqui?
+        .then(json => json.results.slice(0, 20)) 
         .catch(err => console.error('Ocorreu um erro:' + err));
     return todosOsFilmes
 };
 
-export const farejaDetalhesCard = (movieId) => {
-    const url = `https://api.themoviedb.org/3/movie/${movieId}`; //testar com slice(1)?
+export const farejaDetalhesCard = (movie_id) => {
+    const url = `https://api.themoviedb.org/3/movie/${movie_id.slice(1)}?language=pt-BR`; //testar com slice(1)?
     const options = {
         method: 'GET',
         headers: {
@@ -31,8 +31,8 @@ export const farejaDetalhesCard = (movieId) => {
 
     const detalhesDoCard =
         fetch(url, options)
-            .then(res => res.json())
-            .then(json => console.log(json))
-            .catch(err => console.error('Ocorreu um erro:' + err));
+        .then(res => res.json())
+        .then(res => { return res })
+        .catch(err => console.error('Ocorreu um erro:' + err));
     return detalhesDoCard
 };

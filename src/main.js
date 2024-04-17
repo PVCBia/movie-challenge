@@ -6,29 +6,30 @@
 import App from './components/App.js';
 import Resumo from './components/Resumo.js';
 
-
 // - Adicionar os componentes ao elemento com o ID "recebeDados" (main)
 const lista = document.getElementById('recebeDados')
-
-// const mostraCards = lista.appendChild(App());
 
 const trocaPagina = (movieId) => {
     lista.appendChild(Resumo(movieId));
 }
 
+// verificar se a parte de hash da URL esta vazia (não há âncora específica)
+// limpa o conteúdo html e cria dinamicamente o App
+
+// se a hash da URL não estiver vazia, o código do segundo bloco será executado.
+// chamando a função trocaPagina e passando a parte de hash da URL como argumento
 window.addEventListener('load', () => {
 
-    if (window.location.hash === "") {         
-        lista.innerHTML = '';                    
+    if (window.location.hash === "") {
+        lista.innerHTML = '';
         lista.appendChild(App());
 
-    } else {                                  
-        lista.innerHTML = '';                    
+    } else {
+        lista.innerHTML = '';
         trocaPagina(window.location.hash);
     }
-})
+});
 
-//console.log(Resumo)
 
 const hashRerumo = () => {
 
