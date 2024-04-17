@@ -9,17 +9,30 @@
 }
 
 :root {
-    --color-gelo: #eaeaea;
-    --color-azul-bebe: #cbc5ea;
-    --color-lavanda: #73628a;
-    --color-azul-petroleo: #313d5a;
-    --color-verde-petroleo: #183642;
+    --color-gelo: #e4ceec;
+    --color-azul-bebe: #dbd8e3;
+    --color-lavanda: #2a2438;
+    --color-azul-petroleo: #352f44;
+    --color-verde-petroleo: #5c5470;
 }
 
+/* --color-gelo: #e4ceec;
+--color-azul-bebe: #8e05c3;
+--color-lavanda: #0f0216;
+--color-azul-petroleo: #3e065f;
+--color-verde-petroleo: #700b97; */
+
+/* 
+--color-gelo: #eaeaea;
+--color-azul-bebe: #cbc5ea;
+--color-lavanda: #73628a;
+--color-azul-petroleo: #313d5a;
+--color-verde-petroleo: #101c20; */
+
 header {
-background-image: url('https://media4.giphy.com/media/vGHQ4NQKeLtIg4cBrX/giphy.webp?cid=790b7611d4ln5inapmuaexuuraaujmbfc81k1u2yv7wcifdb&ep=v1_gifs_search&rid=giphy.webp&ct=g');
-background-size: cover;
-background-position: center;
+    background-image: url('https://media4.giphy.com/media/vGHQ4NQKeLtIg4cBrX/giphy.webp?cid=790b7611d4ln5inapmuaexuuraaujmbfc81k1u2yv7wcifdb&ep=v1_gifs_search&rid=giphy.webp&ct=g');
+    background-size: cover;
+    background-position: center;
 }
 
 body {
@@ -31,6 +44,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 2rem;
 }
 
 h1 {
@@ -40,53 +54,85 @@ h1 {
     font-size: 4rem;
 }
 
-.cabecalho__titulo {
-    margin: 3%;
-}
-
-#btn-voltar {
-    color: var(--color-verde-petroleo);
-    font-size: 1.5rem;
-}
-
-#filmes {
+/* ul dos cards*/
+.cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 50px;
-}
-
-.cards {
-    background: var(--color-azul-petroleo);
-    border: 1px solid var(--color-azul-petroleo);
-    margin: 20px;
-    width: calc(20% - 40px);
-}
-
-.cards__parte1-capa {
-    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.779);
-    width: 100%;
-    height: auto;
-}
-
-.cards__parte2 {
     padding: 10px;
-    background-color: var(--color-azul-petroleo);
+    margin: 10px;
+    gap: 1rem;
+    justify-content: space-evenly;
 }
 
-.cards__parte2-titulo {
-    font-size: 18px;
-}
-
-footer {
-    width: 100%;
-    background-color: var(--color-azul-petroleo);
+/* infos dos cards da página inicial */
+.infosApp {
+    width: calc(20% - 40px);
+    margin: .5rem;
+    border-radius: 3%;
+    padding: .5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    padding: 30px 0;
+    list-style: none;
+    text-align: center;
+    font-size: .8rem;
+    background: var(--color-azul-petroleo);
 }
+
+.resumoNaTela {
+    width: 80%;
+    margin-left: 8%;
+    padding: 2rem;
+    border-radius: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    font-size: 1.3rem;
+    background: #352f44c7;
+    justify-content: flex-start;
+
+}
+
+.capaResumo {
+    box-shadow: 10px 10px 50px var(--color-verde-petroleo);
+}
+
+#div1, #div2 {
+    padding: 3rem;
+}
+
+/* imagem dos cards da página inicinal */
+.capaCards {
+    box-shadow: 10px 10px 50px var(--color-verde-petroleo);
+    width: 100%;
+    height: 100%;
+}
+
+/* página de detalhes */
+#btn-voltar {
+    margin-bottom: 2.5rem;
+    border-radius: 16%;
+    padding: 2%;
+    font-size: 1.2rem;
+    background-color: var(--color-verde-petroleo);
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 4rem;
+    margin-top: 2rem;
+    background-color: var(--color-azul-petroleo);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+
+
 
 
 
