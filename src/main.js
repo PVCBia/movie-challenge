@@ -42,7 +42,7 @@ const hashRerumo = () => {
 
         } else {                                   
             lista.innerHTML = '';                    
-            hashRerumo(window.location.hash);
+            trocaPagina(window.location.hash);
         }
     });
 };
