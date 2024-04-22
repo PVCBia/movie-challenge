@@ -40,7 +40,7 @@ Essas funcionalidades combinadas criam uma experiência envolvente para os usuá
 - CSS3
 - JavaScript (ES6+)
 
-## Plamejamento e Protótipos
+## Planejamento e Protótipos
 - Mindmeister
 - ToDoist
 - Figma
