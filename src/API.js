@@ -14,8 +14,8 @@ export const farejaLista = () => {
     const todosOsFilmes =
         fetch(url, options)
         .then(res => res.json())
-        .then(json => json.results.slice(0, 20)) 
-        .catch(err => console.error('Ocorreu um erro:' + err));
+        .then(json => json.results) 
+        .catch(err => {return 'Ocorreu um erro:' + err});//console.error('Ocorreu um erro:' + err));
     return todosOsFilmes
 };
 
@@ -32,7 +32,21 @@ export const farejaDetalhesCard = (movie_id) => {
     const detalhesDoCard =
         fetch(url, options)
         .then(res => res.json())
-        .then(res => { return res })
-        .catch(err => console.error('Ocorreu um erro:' + err));
+        .then(res => {return res})
+        .catch(err => {return 'Ocorreu um erro:' + err});
     return detalhesDoCard
 };
+
+//O método global fetch() inicia o processo de busca de um recurso da rede, retornando uma
+//promessa que é cumprida assim que a resposta estiver disponível.
+
+//A promessa é resolvida para o objeto Response que representa a resposta à sua solicitação.
+//A promessa não rejeita erros de HTTP - apenas rejeita erros de rede. Você deve usar os
+//manipuladores then para chechar erros de HTTP.
+
+//O objeto Promise representa a eventual conclusão (ou falha) de uma operação assíncrona e
+//seu valor resultante.
+
+//then() é usado para manipular o resultado (ou erro) de uma Promise. Ele permite que você
+//especifique o que fazer quando a Promise é resolvida (quando a operação assíncrona é
+//bem-sucedida) ou quando é rejeitada (quando ocorre um erro).

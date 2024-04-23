@@ -15,7 +15,7 @@ const Resumo = (movie_id) => {
       `
     <div id="div1">
     <a href='/'><button id="btn-voltar">&#x1F814  Voltar</button></a>
-    <a href="#${movie_id}">
+    <a href="${movie_id}">
     <img class='capaResumo' src="https://image.tmdb.org/t/p/w300${resumo.poster_path}" alt="Capa do filme '${resumo.title}'"></img>
     </a>
     </div>
