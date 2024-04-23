@@ -90,7 +90,6 @@ h1 {
     font-size: 1.3rem;
     background: #352f44c7;
     justify-content: flex-start;
-
 }
 
 .capaResumo {
@@ -130,81 +129,15 @@ footer {
     font-size: 1.5rem;
 }
 
-
-
-
-
-
-/* título e ano */
-/* .cards__parte2-text {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.cards__parte2-details {
-    display: flex;
-    align-items: center;
-    gap: 45px;
-} */
-
-
-   /* chamar as classes aqui
+   /* MEDIA QUERIES
  @media screen and (min-width: 375px) and (max-width: 1024px) { 
- 
-       .cabecalho {
-        width: 90vw;
-    }
-    .cabecalho__pesquisa {
-        width: 90%;
-    }
+   chamar as classes aqui
 } */
 
-/* implementações futuras:
-:after.cabecalho__pesquisa {
-    width: 750px;
-    height: 40px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    flex-shrink: 0;
-    padding: 1rem;
-    margin-bottom: 60px;
-    border-radius: 15px;
-    opacity: 0.25;
-    background: var(--color-verde-petroleo);
-    box-shadow: 4px 4px 8px 1px var(--color-berinjela);
-    max-width: 60%;
-    max-height: 5%;
-
-    /* width: 634px; */
-    /* margin-top: 48px;
-
-}*/
-
-/* .cabecalho__pesquisa-input {
-    padding: .5rem;
-    width: 80%;
-    height: 100%;
-    border: none;
-    background: transparent;
-    color: var(--color-gelo);
-    font-size: 150%;
-    font-weight: 700;
-    font-style: italic; */
-    /* line-height: normal; */
-    /* outline: none;
-}
-
-.cabecalho__pesquisa-input:focus {
-    outline: none;
-}
-
-.cabecalho__pesquisa-lupa {
-    width: 8%;
-    height: 8%;
-    flex-shrink: 0;
-    cursor: pointer;
-    pointer-events: pointer;
-}  */
+/* background-image: url(./img/Group\ 1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #080131;
+    background-attachment: fixed;
+    height: 100vh;
+    background-size: cover; */

@@ -10,8 +10,6 @@
 
 // usar as chaves quando não for export defaut no arquivo de importação
 import { farejaLista } from '../API.js';
-
- //        "filme" vai como parâmetro aqui embaixo? 
 const App = () => {
   const inserirListaDeFilmes = document.createElement('section');
   inserirListaDeFilmes.className = 'insereLista';
@@ -45,30 +43,3 @@ const App = () => {
 };
 
 export default App;
-
-        
-  //     const { title, release_date, poster_path } = movie;
-  //     const releaseYear = release_date.split('-')[0];
-  //     const posterPath = `https://image.tmdb.org/t/p/w500/${poster_path}`;
-
-  //     const parte1 = document.createElement('div');
-  //     parte1.className = 'cards__parte1';
-  //     parte1.innerHTML = `<img src="${posterPath}" alt="Capa" class="cards__parte1-capa">`;
-  //     section.appendChild(parte1);
-
-  //     const parte2 = document.createElement('div');
-  //     parte2.className = 'cards__parte2';
-  //     parte2.innerHTML = `<h3 class="cards__parte2-titulo" 
-  //                       <a href= "/#${title}">${title} <br> (${releaseYear})</a>
-  //                       </h3>`;
-  //     section.appendChild(parte2);
-
-  //     inserirListaDeFilmes.appendChild(section);
-  //   })
-  // })
-  
-  // return inserirListaDeFilmes
-  // // console.log(inserirListaDeFilmes)
-// };
-
-// export default App;
