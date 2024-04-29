@@ -1,8 +1,8 @@
-[<img src="assets/capaPipocando.jpg" alt="A capa do site é uma animação multicolorida com pipocas estrourando">]()
+!["A capa do site é uma animação multicolorida com pipocas estrourando"](src/assets/capaPipocando.jpg)
 
 # Pipocando na Tela - Movie Challenge
 
-![GitHub](https://img.shields.io/github/license/PVCBia/movie-challenge) ![GitHub repo size](https://img.shields.io/github/repo-size/uPVCBia/movie-challenge) ![GitHub last commit](https://img.shields.io/github/last-commit/PVCBia/movie-challenge)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![GitHub repo size](https://img.shields.io/github/repo-size/PVCBia/movie-challenge) ![GitHub last commit](https://img.shields.io/github/last-commit/PVCBia/movie-challenge)
 
 ## Descrição do Projeto
 
@@ -44,6 +44,8 @@ Essas funcionalidades combinadas criam uma experiência envolvente para os usuá
 - Mindmeister
 - ToDoist
 - Figma
+- !["Interface da página, mostrando o título "Pipocando na Tela", e logo a baixo quatro colunas com os posteres dos filmes mais populares."](src/assets/interfacePrincipal.png))
+!["Interface da página de detalhe do filme escolhido, como: o poster, título do filme, ano de lançamento, nota de avaliação do filme e sinópse."](src/assets/interfaceDetalhes.png)
 
 ## Contribuindo
 
