@@ -52,7 +52,7 @@ Essas funcionalidades combinadas criam uma experiência envolvente para os usuá
 - Figma
 
 !["Interface da página, mostrando o título 'Pipocando na Tela', e logo a baixo quatro colunas com os posteres dos filmes mais populares"](src/assets/interfacePrincipal.png)
-!["Interface da segunda página mostra detalhes do filme escolhido, como: o poster, título do filme, ano de lançamento, nota de avaliação do filme e sinópse"]((src/assets/pgDetalhes.jpg))
+!["Interface da segunda página mostra detalhes do filme escolhido, como: o poster, título do filme, ano de lançamento, nota de avaliação do filme e sinópse"](src/assets/pgDetalhes.jpg)
 
 
 ## Contribuindo
