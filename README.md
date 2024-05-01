@@ -1,12 +1,15 @@
 !["A capa do site é uma animação multicolorida com pipocas estrourando"](src/assets/capaPipocando.jpg)
 
+
 # Pipocando na Tela - Movie Challenge
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![GitHub repo size](https://img.shields.io/github/repo-size/PVCBia/movie-challenge) ![GitHub last commit](https://img.shields.io/github/last-commit/PVCBia/movie-challenge)
 
+
 ## Descrição do Projeto
 
 O "Pipocando na Tela - Movie Challenge" é um projeto de interface web para visualização e detalhamento de filmes. Ele utiliza a API do TMDB (The Movie Database) para buscar informações sobre filmes populares e exibir em uma interface amigável.
+
 
 ## Estrutura do Projeto
 
@@ -19,6 +22,7 @@ O projeto consiste em vários componentes JavaScript que são renderizados na p�
   - **App.js**: Componente que exibe a lista de filmes populares.
   - **Resumo.js**: Componente que exibe os detalhes de um filme selecionado.
 - **API.js**: Módulo JavaScript que contém funções para interagir com a API do TMDB.
+
 
 ### Funcionalidades Principais
 
@@ -34,23 +38,28 @@ O projeto consiste em vários componentes JavaScript que são renderizados na p�
 
 Essas funcionalidades combinadas criam uma experiência envolvente para os usuários, permitindo que eles descubram novos filmes populares e aprofundem-se nos detalhes de seus filmes favoritos.
 
+
 ## Tecnologias Utilizadas
 
 - HTML5
 - CSS3
 - JavaScript (ES6+)
 
+
 ## Plamejamento e Protótipos
 - Mindmeister
 - ToDoist
 - Figma
-- !["Interface da página, mostrando o título "Pipocando na Tela", e logo a baixo quatro colunas com os posteres dos filmes mais populares."](src/assets/interfacePrincipal.png))
-!["Interface da página de detalhe do filme escolhido, como: o poster, título do filme, ano de lançamento, nota de avaliação do filme e sinópse."](src/assets/interfaceDetalhes.png)
+
+!["Interface da página, mostrando o título 'Pipocando na Tela', e logo a baixo quatro colunas com os posteres dos filmes mais populares"](src/assets/interfacePrincipal.png)
+!["Interface da segunda página mostra detalhes do filme escolhido, como: o poster, título do filme, ano de lançamento, nota de avaliação do filme e sinópse"]((src/assets/pgDetalhes.jpg))
+
 
 ## Contribuindo
 
 São bem-vindas contribuições neste projeto, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
+
 ## Licença
 
-Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE para obter mais detalhes.
+Este projeto está licenciado sob a Licença MIT.

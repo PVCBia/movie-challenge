@@ -33,7 +33,6 @@ export const mock1 = {
     ],   
 };
 
-
 export const mock2 = {
   "movie":  [
     {
@@ -50,3 +49,4 @@ export const mock2 = {
 export const mock3 = {
   "status": "Erro 404 (Página não encontrada)."
 };
+
