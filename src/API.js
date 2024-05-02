@@ -1,5 +1,4 @@
-//(lista com as funções da requisição)
-//precisa desenvolver teste para este arquivo? se sim, pesquisar como?
+//aqui vão as funções da requisição
 
 export const farejaLista = () => {
     const url = 'https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&sort_by=popularity.desc';
@@ -37,6 +36,7 @@ export const farejaDetalhesCard = (movie_id) => {
     return detalhesDoCard
 };
 
+//Métodos utilizados:
 //O método global fetch() inicia o processo de busca de um recurso da rede, retornando uma
 //promessa que é cumprida assim que a resposta estiver disponível.
 
