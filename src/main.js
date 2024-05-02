@@ -31,7 +31,7 @@ window.addEventListener('load', () => {
 });
 
 
-const hashRerumo = () => {
+const hashResumo = () => {
 
         // - Escutador para a troca de página - hash da URL
     window.addEventListener('hashchange', () => {   
@@ -48,5 +48,5 @@ const hashRerumo = () => {
 };
 
     //nao precisa de return
-hashRerumo();
+hashResumo();
     
