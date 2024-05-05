@@ -45,8 +45,6 @@ export const mock2 = {
   ],   
 };
 
-//  mockar o erro aqui?
 export const mock3 = {
   "status": "Erro 404 (Página não encontrada)."
 };
-

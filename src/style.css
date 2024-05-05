@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-
 * {
     color: var(--corText);
     margin: 0;
@@ -7,37 +6,20 @@
     font-optical-sizing: auto;
     font-style: normal;
 }
-
 :root {
     --corText: #e4ceec;
     --corBody: #2a2438;
     --corBg: #352f44;
     --corLift: #5c5470;
 }
-
-/* --color-gelo: #e4ceec;
---color-azul-bebe: #8e05c3;
---color-lavanda: #0f0216;
---color-azul-petroleo: #3e065f;
---color-verde-petroleo: #700b97; */
-
-/* 
---color-gelo: #eaeaea;
---color-azul-bebe: #cbc5ea;
---color-lavanda: #73628a;
---color-azul-petroleo: #313d5a;
---color-verde-petroleo: #101c20; */
-
 header {
     background-image: url('https://media4.giphy.com/media/vGHQ4NQKeLtIg4cBrX/giphy.webp?cid=790b7611d4ln5inapmuaexuuraaujmbfc81k1u2yv7wcifdb&ep=v1_gifs_search&rid=giphy.webp&ct=g');
     background-size: cover;
     background-position: center;
 }
-
 body {
     background-color: var(--corBody);
 }
-
 .cabecalho {
     background-color: var(--corBg);
     display: flex;
@@ -45,15 +27,12 @@ body {
     align-items: center;
     margin-bottom: 2rem;
 }
-
 h1 {
     margin: 2rem;
     margin-top: 3.5rem;
     text-align: center;
     font-size: 4rem;
 }
-
-/* ul dos cards*/
 .cards {
     display: flex;
     flex-wrap: wrap;
@@ -62,8 +41,6 @@ h1 {
     gap: 1rem;
     justify-content: space-evenly;
 }
-
-/* infos dos cards da página inicial */
 .infosApp {
     width: calc(20% - 40px);
     margin: .5rem;
@@ -77,8 +54,6 @@ h1 {
     font-size: .8rem;
     background: var(--corBgCards);
 }
-
-/* resumo na tela de detalhes */
 .resumoNaTela {
     width: 80%;
     margin-left: 8%;
@@ -92,26 +67,20 @@ h1 {
     background: #352f44c7;
     justify-content: flex-start;
 }
-
 .capaResumo {
     box-shadow: 10px 10px 50px var(--corLift);
 }
-
 #div1, #div2 {
     padding: 3rem;
 }
-
 .vote {
     font-size: .8rem;
 }
-/* imagem dos cards da página inicinal */
 .capaCards {
     box-shadow: 10px 10px 50px var(--corLift);
     width: 100%;
     height: 100%;
 }
-
-/* página de detalhes */
 #btn-voltar {
     margin-bottom: 2.5rem;
     border: transparent;
@@ -127,13 +96,11 @@ h1 {
     color: var(--corText);
     transition: .5s;
 }
-
 #linkedinIcon, #githubIcon {
     background-color: var(--corText);
     width: 2rem;
     margin: .5rem;
 }
-
 #iconVote {
     width: 1rem;
 }
@@ -149,17 +116,3 @@ h1 {
     align-items: center;
     font-size: .8rem;
 }
-
-   /* Futuras implementações
-    MEDIA QUERIES
- @media screen and (min-width: 375px) and (max-width: 1024px) { 
-   chamar as classes aqui
-} */
-
-/* background-image: url(./img/Group\ 1.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-color: #080131;
-    background-attachment: fixed;
-    height: 100vh;
-    background-size: cover; */

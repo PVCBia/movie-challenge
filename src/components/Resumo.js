@@ -1,7 +1,3 @@
-// é possivel inserir a autorização e criar a div no mesmo arquivo?
-//  R:  separado - melhor para os testes unitários
-
-
 import { farejaDetalhesCard } from '../API.js';
 
 const Resumo = (movie_id) => {
@@ -9,13 +5,6 @@ const Resumo = (movie_id) => {
   mostraResumo.className = 'resumoNaTela';
 
   farejaDetalhesCard(movie_id).then(resumo => {
-    //falta:gêneros
-    // let categoria = "";
-    // resumo.genres.forEach((tipo)  => {
-    //   categoria += `${tipo.name}, `;
-    // });
-    // <p class= vote>Gênero: ${resumo.categoria['name']}</p>
-
     mostraResumo.innerHTML =
       `
     <div id="div1">
@@ -31,9 +20,7 @@ const Resumo = (movie_id) => {
     <p>${resumo.overview}</p> 
     </div>
     `;
-   
   });
-
   return mostraResumo
 };
 export default Resumo;
