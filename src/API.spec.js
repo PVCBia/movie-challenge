@@ -1,20 +1,6 @@
-//os testes servem como documentação viva do código para: saber para que o método foi proposto qual a utilidade do método
-
-//para validar e manter a qualidade do código
-
-//Método para desenvolver teste:
-//  1 - Arrange - preparação/ definir
-//  2 - Act - ação/ acionar
-//  3 - Assert - afirmação/verificação
-
-
 import { mock1, mock2, mock3 } from './test/mocks.js';
 import { farejaLista, farejaDetalhesCard } from './API.js';
 
-// Limpar o mock
-beforeEach(() => {jest.clearAllMocks();});
-
-// Mock API
 jest.mock('./API.js', () => ({
   farejaLista: jest.fn(() => Promise.resolve(mock1.results)),
   farejaDetalhesCard : jest.fn (() => Promise.resolve(mock2.movie)),
